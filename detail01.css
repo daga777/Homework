@@ -1,0 +1,63 @@
+
+/* tag selector */
+body {
+  /* background-color: blue; */
+}
+
+/* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}*/
+
+h1 {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+}
+
+/* id selector */
+/* 100 */
+#para {
+  color: red;
+  text-align: center;
+}
+
+/* class selector */
+/* 10 */
+.two {
+  color: brown;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: justify;
+}
+
+/* 10 */
+.one {
+  color: violet;
+  font-size: 24px;
+  text-align: right;
+}
+
+.cover {
+  height: 300px;
+  width: 200px;
+}
+
+/* 1
+ p {
+  color: blue !important;
+} 
+
+1 -for p and 10 for class = 11 
+ p.one { */
+/* color: red; */
+/* } */
+
+
+/* Specify */
+/* 
+tag --> 1
+class --> 10 
+id --> 100
+!important --> 1000 for propperties
+*/

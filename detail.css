@@ -1,0 +1,68 @@
+
+/* tag selector */
+body {
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.h1 {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: justify;
+  
+}
+
+.h2 {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: justify;
+
+}
+
+
+
+/* id selector */
+/* 100 */
+#para {
+  color: red;
+  text-align: center;
+}
+
+/* class selector */
+/* 10 */
+
+.one {
+  color:gray ;
+  font-size: 24px;
+  text-align: 'right';
+  font-weight: 900;
+}
+
+/* 10 */
+
+.two {
+  color: grey;
+  opacity: 50%;
+  font-size: 24px;
+  text-align: right;
+
+}
+
+
+.cover {
+  height: 300px;
+  width: 200px;
+  font-display: 'bold';
+
+}
+
+.space {
+  height: 300px;
+  width: 10px;
+  font-display: 'bold';
+  
+}
