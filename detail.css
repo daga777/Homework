@@ -1,68 +1,120 @@
 
-/* tag selector */
-body {
+/* pseudo classes and elements */
 
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* css -> box  before and after */
+
+/* selector::pseudo-element {
+  property: value;
+} */
+
+* {
+  font-family: 'Roboto', sans-serif;
+  }
+
+.container {
+  display: flex;
+  align-items: stretch;
+  margin: 50px;
 }
 
-.h1 {
-  color: black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 36px;
-  font-weight: 900;
-  text-align: justify;
-  
+.cover {
+  height: 300px;
+  width: 200px;
+  margin-right: 0px;
+  }
+
+
+.title-one {
+  font-size: '36px';
+  text-align: left;
+  font-weight: 'bold';
+  margin-bottom: 10;
 }
 
-.h2 {
-  color: black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 24px;
-  font-weight: 900;
-  text-align: justify;
-
+.title-two {
+  font-size: '24px';
+  font-weight: 'bold';
+  text-align: 'left'
 }
-
-
-
-/* id selector */
-/* 100 */
-#para {
-  color: red;
-  text-align: center;
-}
-
-/* class selector */
-/* 10 */
 
 .one {
-  color:gray ;
+  color:grey ;
   font-size: 24px;
-  text-align: 'right';
-  font-weight: 900;
+  text-align: right;
+  font-weight: lighter;
 }
 
 /* 10 */
 
 .two {
   color: grey;
-  opacity: 50%;
   font-size: 24px;
-  text-align: right;
+  text-align: 'justify';
+  font-weight: lighter;
+}
 
+.line {
+  background-color: greenyellow;
+  display: flex;
+  height: 5px;
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 
-.cover {
-  height: 300px;
-  width: 200px;
-  font-display: 'bold';
-
+.badge {
+  background-image: url(./badge.png);
+  align-items: center;
+  border-radius: 10px 20px 0 0;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  margin-left: -30px;
+  position: relative;
+  top: -10px;
+  width: 100px;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  transform: rotate(15deg);
 }
 
-.space {
-  height: 300px;
-  width: 10px;
-  font-display: 'bold';
-  
+.badge::after {
+  content: '';
+  height: 50px;
+  left: -50px;
+  position: absolute;
+  top: -50px;
+  width: 50px;
 }
+
+
+/*
+.badge::before {
+  content: '';
+  height: 50px;
+  position: absolute;
+  right: -10px;
+  top: 0;
+  width: 50px;
+}
+*/
+/*
+.badge-two {
+  align-items: center;
+  background-color: red;
+  border-radius: 10px 20px 0 0;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+*/
+
+/* static default value */
+/* relative is positioned relative to normal position */
+/* absolute is positioned relative to firts ancestor (with porperty position different to static) */
+/* fixed is positioned relative to browser windows */
+
+/* initial  inherit */
